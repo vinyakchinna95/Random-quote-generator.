@@ -6,9 +6,9 @@ The project utilizes HTML, CSS, and JavaScript to create an interactive and visu
 
 #Technologies Used
 ====================================================================
-HTML: Provides the basic structure of the web page.
-CSS: Adds styling to the web page to enhance its appearance.
-JavaScript: Implements the functionality to fetch and display random quotes, read quotes aloud, and copy quotes to the clipboard.
+HTML ,
+CSS ,
+JavaScript.
 
 
 Files and Their Roles
