@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Sofia&family=Tangerine:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background-image: url(pexels-jvbuenconcejo-2719301.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Container_box {
+    width: 605px;
+    background-color: rgb(254, 254, 246);
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+
+}
+
+.Container_box header {
+    font-family: "Sofia", cursive;
+    font-weight: 800;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 52, 86);
+}
+
+.Container_box .Quote_area {
+    margin: 35px 0;
+}
+
+.Quote_area .Quote_content {
+    display: flex;
+    justify-content: center;
+}
+
+.Quote_content i{
+    font-size: 15px;
+}
+.Quote_content i:first-child{
+    margin: 1px 7px 0 0;
+    color: rgb(97, 1, 97);
+}
+.Quote_content i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 1px 7px;
+    color: rgb(97, 1, 97);
+}
+
+.Quote_content .Quote {
+    font-family: "Sofia", cursive;
+    font-weight: 600;
+    font-size: 16.5px;
+    word-break: break-all;
+    text-align: center;
+    color: rgb(219, 112, 147);
+}
+
+
+.Quote_area .Author {
+    font-family: "Sofia", cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(199, 21, 133);
+}
+
+.Author p{
+    font-family: monospace;
+    margin: -7px 3px 0 0;
+}
+
+.Container_box .buttons {
+    border-top: 1px solid rgb(109, 14, 46);
+}
+
+.buttons .features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li {
+    list-style: none;
+    margin: 0 5px;
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgb(204, 50, 101);
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(204, 50, 101);
+    background-color: rgb(255, 219, 225);
+    transition: all 0.5s;
+}
+.features ul li:hover {
+    background-color: rgb(255, 229, 237);
+    transform: scale(1.1);
+}
+
+.features ul li:active {
+    background-color: palevioletred;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+.features button {
+    border: none;
+    padding: 13px 22px;
+    outline: none;
+    background-color: rgb(204, 50, 101);
+    border-radius: 30px;
+    color: azure;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgb(204, 50, 101);
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: palevioletred;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
